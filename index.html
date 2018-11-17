@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Proc JAM</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/Vector2.js" ></script>
+		<script type="text/javascript" src="js/player.js" ></script>
+		<script type="text/javascript" src="js/canvas.js" ></script>
+		<script type="text/javascript" src="js/particle.js" ></script>
+		<script type="text/javascript" src="js/wall.js" ></script>
+		<script type="text/javascript" src="js/enemy.js" ></script>
+		<script type="text/javascript" src="js/enemy-factory.js" defer></script>
+		<script type="text/javascript" src="js/enemies.js" defer></script>
+		<script type="text/javascript" src="js/bullet.js" ></script>
+		<script type="text/javascript" src="js/enemyBullet.js" ></script>
+		<script type="text/javascript" src="js/spawn.js" ></script>
+		<script type="text/javascript" src="js/end.js" ></script>
+		<script type="text/javascript" src="js/main.js" defer></script>
+	</head>
+	<body oncontextmenu="return false">
+		<div id="wave"></div>
+		<div id="GO">
+			<div id="GO-text">
+			</div>
+			<button id="PA" onclick="location.reload()">Play Again</button>
+		</div>
+		<div id="container">
+			<div id="container-2">
+				<canvas id="canvas"></canvas>
+				<img src="https://cdn.discordapp.com/attachments/425702620028731395/507634735607185408/black_hole_good_animation.gif" id="hole">
+			</div>
+		</div>
+		<div id="main-menu">
+			<div id="title">
+				Wave 37
+			</div>
+			<div id="menu-text">
+				<div class="menu" id="start">
+					Play
+				</div>
+				<div class="menu" id="credits">
+					Credits
+				</div>
+				<div class="menu" id="end">
+					Exit
+				</div>
+			</div>
+		</div>
+		<div id="credit-screen">
+			<div id="credit-text">
+			Programming - Matei Adriel<br/>
+			Music - Calin Avram<br/>
+			Beta testing:
+				<ul>
+					<li>
+						Teodora Matei
+					</li>
+					<li>
+						Calin Avram
+					</li>
+					<li>
+						Radu Popescu (Vlog de IT)
+					</li>
+					<li>
+						Nicolae Furca
+					</li>
+					<li>
+						Vyctor661#2132
+					</li>
+				</ul>
+			</div>
+			<div id="credit-close">Close</div>
+		</div>
+		<img src="textures/player.png" id="texture1" class="texture">
+		<img src="textures/bullet.png" id="texture3" class="texture">
+		<img src="https://media.discordapp.net/attachments/425702620028731395/506886102066528257/enemy2.png" id="texture4" class="texture">
+		<audio src="audio/Oddisey_of_Space_1.ogg" class="texture" autoplay loop></audio>
+	</body>
+</html>
